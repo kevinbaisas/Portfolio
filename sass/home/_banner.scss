@@ -1,5 +1,5 @@
 .home-banner-section {
-    background: url('../../../banner-image.jpg') center 30% no-repeat;
+    background: url('https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/home-banner/banner-image.jpg') center 30% no-repeat;
     background-color: #f3f3f3;
     background-size: contain;
     height: 600px;
@@ -8,35 +8,28 @@
     .banner-font {
         color: $gray;
         font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-        font-weight: 500;
+        font-weight: 500 !important;
         line-height: 1;
         text-align: center;
+        &.banner-sub-slogan {
+            padding-top: 180px;
+        }
     }
     .banner-slogan h1 {
         font-size: 60px;
         margin: 0 auto;
-        padding-top: 80px;
-    }
-    .banner-sub-slogan h2 {
-        font-size: 21px;
-        margin: 0 auto;
-        padding-top: 16px;
+        padding-top: 128px;
+        font-weight: 500 !important;
     }
 }
 
 @media screen and (max-width: 900px) {
     .home-banner-section {
-        height: 230px;
         .banner-slogan h1 {
             font-size: 20px!important;
             margin: 0 16px;
-            padding-top: 24px!important;
-        }
-        .banner-sub-slogan h2 {
-            font-size: 12px!important;
-            line-height: 16px;
-            margin: 0 16px;
-            padding-top: 8px!important;
+            padding-top: 160px!important;
+            font-weight: 500 !important;
         }
     }
 }

@@ -1,0 +1,28 @@
+.experience-container {
+    margin: 16px 16px;
+    .material-icons {
+        border-radius: 0%;
+    }
+    .yilinker {
+        background: url('https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/experience/yilinker-logo.svg') center / contain no-repeat;
+    }
+    .starfish {
+        background: url('https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/experience/starfish-logo.svg') center / contain no-repeat;
+    }
+    .experience-position {
+        font-size: 18px;
+        color: #000000;
+        text-decoration: none;
+    }
+    .outer-link {
+        color: #000000;
+        opacity: 0.54;
+        text-decoration: none;
+    }
+    .job-description {
+        padding-left: 40px;
+        li {
+            list-style-type: circle;
+        }
+    }
+}

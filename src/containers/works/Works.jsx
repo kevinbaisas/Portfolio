@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import AppHelmet from '../../components/base/AppHelmet';
 import { Modules, setActiveModule } from '../../actions/base';
 
-const Home = class Home extends Component {
+const Works = class Works extends Component {
 
   props: Object;
 
@@ -14,11 +14,11 @@ const Home = class Home extends Component {
     return [
       {
         'name': 'description',
-        'content': 'Kevin Baisas portfolio. Senior Software Engineer. Web Developer.'
+        'content': 'Kevin Baisas portfolio. Software Engineer. Web Developer.'
       },
       {
         'property': 'og:type',
-        'content': 'home'
+        'content': 'experience'
       }
     ];
   };
@@ -54,29 +54,22 @@ const Home = class Home extends Component {
     const { dispatch }: {
       dispatch: Function
     } = this.props
-    dispatch(setActiveModule(Modules.HOME));
+    dispatch(setActiveModule(Modules.WORKS));
   }
 
   render() :Object {
 
     return (
       <div className='home'>
-        <h1 className='black-hat'>Home | Kevin Baisas</h1>
+        <h1 className='black-hat'>Works | Kevin Baisas</h1>
         <AppHelmet
-          title='Home'
+          title='Works'
           meta={ this.getMeta() }
           link={ this.getLink() }
           script={ this.getScript() }
         />
         <div className='home-banner-section mdl-typography--text-center"'>
-          <div className='banner-font banner-slogan'>
-            <h1>eat. sleep. code. repeat.</h1>
-          </div>
-          <div className='banner-font banner-sub-slogan'>
-            <a target='_blank' className='mdl-button mdl-js-button mdl-button--raised mdl-button--colored'>
-              DOWNLOAD CV
-            </a>
-          </div>
+          <span>Works</span>
         </div>
       </div>
     );
@@ -91,4 +84,4 @@ const mapStateToProps = (state: Object, props: Object) :Object => {
   return { };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Works);

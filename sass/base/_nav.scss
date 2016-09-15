@@ -1,42 +1,48 @@
-nav{
-    a {
+.mdl-layout__header {
+    background: $white;
+    .mdl-layout__header-row {
+        padding: 0 16px;
+        .mdl-layout-title {
+            background: url('../../../logo.png') center 30% no-repeat;
+            cursor: pointer;
+            display: block;
+            height: 30px;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+    a, i, span {
         color: $darkGray!important;
-        text-decoration: none!important;
-        cursor: pointer!important;
-        &:hover {
-            background-color: #e0e0e0;
+    }
+    nav{
+        .mdl-tabs__tab.is-active:after {
+            height: 2px;
+            width: 100%;
+            display: block;
+            content: " ";
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            background: $primary500;
+            -webkit-animation: border-expand .2s cubic-bezier(.4,0,.4,1).01s alternate forwards;
+            animation: border-expand .2s cubic-bezier(.4,0,.4,1).01s alternate forwards;
+            transition: all 1s cubic-bezier(.4,0,1,1);
         }
-    }
-    .nav-subheader {
-        box-sizing: border-box;
-        color: rgba(0, 0, 0, 0.541176);
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 48px;
-        padding-left: 16px;
-        width: 100%;
-    }
-    .mdl-navigation__link {
-        &.has-items {
-            cursor: pointer!important;
 
-            .material-icons {
-                position: absolute;
-                right: 0;
-                padding-right: 8px;
-            }
+        // Phone
+        @media (min-width: 480px) {
+
         }
-        &.has-items ~ .children {
-            overflow:hidden;
-            max-height:0;
-            -webkit-transition: all .4s ease-out;
-            -moz-transition: all .4s ease-out;
-            transition: all .4s ease-out;
-            &.open {
-                max-height: 500px;
-            }
-            a {
-                padding-left: 60px!important;
+
+        // Tablet
+        @media (min-width: 768px)  {
+
+        }
+
+        // Desktop
+        @media (min-width: 992px) {
+            .nav-link {
+                padding: 0 60px;
             }
         }
     }

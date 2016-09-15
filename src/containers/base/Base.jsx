@@ -4,49 +4,56 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 import { setActiveModule, Modules } from '../../actions/base';
-import { getModules } from '../../factories/Modules';
-import SearchBar from '../../components/base/SearchBar';
-import Nav from '../../components/base/Nav';
-import AssetsHandler from '../../lib/AssetsHandler';
 
 const Base = class Base extends Component {
 
   props: Object;
 
-  getDrawerItems :Function = () :Array<Object> => {
-    return getModules();
+  getNavClass: Function = (currentModule: string) :string => {
+    const { activeModule }: {
+      activeModule: string
+    } = this.props;
+
+    return currentModule == activeModule ? 'nav-link mdl-tabs__tab is-active' : 'nav-link mdl-tabs__tab';
   };
 
   constructor() :void {
     super();
-    this.getDrawerItems = this.getDrawerItems.bind(this);
+    this.getNavClass = this.getNavClass.bind(this);
   }
 
   render() :Object {
-    const { children, activeModule }: {
-      children: Object,
-      activeModule: string
+    const { children }: {
+      children: Object
     } = this.props;
-
-    const drawerList: Array<Object> = this.getDrawerItems();
 
     return (
       <div className='base'>
         <div className='mdl-layout mdl-js-layout mdl-layout--fixed-header'>
-          <header className='ch-header mdl-layout__header mdl-layout__header--waterfall'>
+          <header className='mdl-layout__header mdl-layout__header--waterfall'>
             <div className='mdl-layout__header-row'>
-              <span className="mdl-layout-title">
-                <Link className='header-title-logo' to='/' />
-              </span>
+              <span className='mdl-layout-title'></span>
               <div className='mdl-layout-spacer'></div>
-              <SearchBar id='header-search' onSearchAction={ () => { console.log('hello') } } />
+            </div>
+            <div className='mdl-tabs'>
+              <nav className='mdl-tabs__tab-bar'>
+                <Link to='/home' className={ this.getNavClass('home') }>Home</Link>
+                <Link to='/experience' className={ this.getNavClass('experience') }>Experience</Link>
+                <Link to='/tools' className={ this.getNavClass('tools') }>Tools</Link>
+                <Link to='/works' className={ this.getNavClass('works') }>Works</Link>
+              </nav>
             </div>
           </header>
-          <div className='mdl-layout__drawer'>
-            <Nav drawerList={ drawerList } />
-          </div>
           <main className='mdl-layout__content'>
             { children }
+            <footer className='mdl-mini-footer'>
+              <div className='mdl-mini-footer__left-section'>
+                <span>2016 Kevin Baisas</span>
+              </div>
+              <div className='mdl-mini-footer__right-section'>
+                <span>kevin.baisas@gmail.com</span>
+              </div>
+            </footer>
           </main>
         </div>
       </div>
