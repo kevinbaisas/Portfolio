@@ -17,8 +17,8 @@ const AppHelmet = class AppHelmet extends Component {
 
     return (
       <Helmet
-        title={ title } titleTemplate={ `%s | localhost:5000` }
-        defaultTitle='localhost:3000'
+        title={ title } titleTemplate={ `%s | Kevin Baisas` }
+        defaultTitle='Kevin Baisas'
         meta={ meta } link={ link } script={ script }
       />
     );

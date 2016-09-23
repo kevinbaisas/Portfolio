@@ -48,9 +48,6 @@ const Base = class Base extends Component {
             { children }
             <footer className='mdl-mini-footer'>
               <div className='mdl-mini-footer__left-section'>
-                <span>2016 Kevin Baisas</span>
-              </div>
-              <div className='mdl-mini-footer__right-section'>
                 <span>kevin.baisas@gmail.com</span>
               </div>
             </footer>

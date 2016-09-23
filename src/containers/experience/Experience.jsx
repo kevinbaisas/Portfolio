@@ -18,7 +18,19 @@ const Experience = class Experience extends Component {
       },
       {
         'property': 'og:type',
-        'content': 'experience'
+        'content': 'website'
+      },
+      {
+        'property': 'og:url',
+        'content': 'http://www.kevinbaisas.xyz/experience'
+      },
+      {
+        'property': 'og:title',
+        'content': 'Experience'
+      },
+      {
+        'property': 'og:site_name',
+        'content': 'Kevin Baisas'
       }
     ];
   };
@@ -27,7 +39,7 @@ const Experience = class Experience extends Component {
     return [
       {
         'rel': 'canonical',
-        'href': 'http://kevinbaisas.xyz/experience'
+        'href': 'http://www.kevinbaisas.xyz/experience'
       }
     ];
   };
@@ -37,7 +49,22 @@ const Experience = class Experience extends Component {
       {
         'type': 'application/ld+json',
         innerHTML: `{
-          '@context': 'http://schema.org'
+          '@context': 'http://schema.org',
+          '@type': 'Experience List',
+          'url': 'http://www.kevinbaisas.xyz/experience',
+          'numberOfItems': '2',
+          'itemListElement': [
+            {
+              '@type': 'Experience',
+              'name': 'Senior Software Engineer',
+              'description': 'Senior Software Engineer. Yilinker Philippines Inc.'
+            },
+            {
+              '@type': 'Experience',
+              'name': 'Web Developer',
+              'description': 'Senior Software Engineer. Starfish Internet Solutions.'
+            }
+          ]
         }`
       }
     ];

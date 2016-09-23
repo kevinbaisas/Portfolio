@@ -18,7 +18,19 @@ const Home = class Home extends Component {
       },
       {
         'property': 'og:type',
-        'content': 'home'
+        'content': 'website'
+      },
+      {
+        'property': 'og:url',
+        'content': 'http://www.kevinbaisas.xyz/home'
+      },
+      {
+        'property': 'og:title',
+        'content': 'Home'
+      },
+      {
+        'property': 'og:site_name',
+        'content': 'Kevin Baisas'
       }
     ];
   };
@@ -27,7 +39,7 @@ const Home = class Home extends Component {
     return [
       {
         'rel': 'canonical',
-        'href': 'http://kevinbaisas.xyz/home'
+        'href': 'http://www.kevinbaisas.xyz/home'
       }
     ];
   };
@@ -73,7 +85,7 @@ const Home = class Home extends Component {
             <h1>eat. sleep. code. repeat.</h1>
           </div>
           <div className='banner-font banner-sub-slogan'>
-            <a target='_blank' className='mdl-button mdl-js-button mdl-button--raised mdl-button--colored'>
+            <a target='_blank' href='https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/cv/kevinbaisas.pdf' className='mdl-button mdl-js-button mdl-button--raised mdl-button--colored'>
               DOWNLOAD CV
             </a>
           </div>

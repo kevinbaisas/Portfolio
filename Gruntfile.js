@@ -95,6 +95,9 @@ module.exports = (grunt) => {
     shell: {
       flow: {
         command: 'flow check'
+      },
+      compass: {
+        command: 'compass compile'
       }
     },
     concurrent: {
@@ -131,6 +134,7 @@ module.exports = (grunt) => {
 
   grunt.registerTask('default', [
     'bowercopy',
+    'shell:compass',
     'webpack:build'
   ]);
 
@@ -140,6 +144,7 @@ module.exports = (grunt) => {
     'bowercopy',
     'webpack:build-dev',
     'shell:flow',
+    'shell:compass',
     'eslint',
     'jshint',
     'concurrent:start'

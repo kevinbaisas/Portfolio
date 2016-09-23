@@ -1,5 +1,5 @@
 .tools-container {
-    a {
+    a, h2 {
         color: #000000;
         text-decoration: none;
         font-weight: 400;
@@ -68,6 +68,12 @@
     }
     .flow {
         background: url('https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/tools/flow.svg') center / contain no-repeat;
+    }
+    .aws {
+        background: url('https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/tools/amazon-web-services.svg') center / contain no-repeat;
+    }
+    .varnish {
+        background: url('https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/tools/varnish.svg') center / contain no-repeat;
     }
 }
 
