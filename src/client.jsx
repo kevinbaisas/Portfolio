@@ -22,7 +22,7 @@ const store: Object = initialize(initialState);
  * You can use hashHistory (http://localhost:8080/#/target-route) to handle hot reloads however,
  * browserHistory (http://localhost:8080/target-route) is more prefered
  */
-const history: Object = syncHistoryWithStore(hashHistory, store);
+const history: Object = syncHistoryWithStore(browserHistory, store);
 
 render(
   <Root store={ store } history={ history } />,
