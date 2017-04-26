@@ -1,20 +1,42 @@
-/** @flow */
-import React from 'react';
-import { Route, IndexRoute } from 'react-router';
 
-import Base from './containers/base/Base';
+import React      from 'react';
+import Base       from './modules/Base/component';
+import Home       from './modules/Home/component';
+import Experience from './modules/Experience/component';
+import Tools      from './modules/Tools/component';
+import Works      from './modules/Works/component';
 
-import Home from './containers/home/Home';
-import Experience from './containers/experience/Experience';
-import Works from './containers/works/Works';
-import Tools from './containers/tools/Tools';
+const routes = [
+  {
+    name: 'Base',
+    component: Base,
+    routes: [
+      {
+        path: '/',
+        name: 'Home',
+        exact: true,
+        component: Home
+      },
+      {
+        path: '/experience',
+        name: 'Experience',
+        exact: true,
+        component: Experience
+      },
+      {
+        path: '/tools',
+        name: 'Tools',
+        exact: true,
+        component: Tools
+      },
+      {
+        path: '/works',
+        name: 'Works',
+        exact: true,
+        component: Works
+      },
+    ]
+  }
+];
 
-export default (
-    <Route path='/' component={ Base }>
-        <IndexRoute component={ Home } />
-        <Route path='/home' component={ Home } />
-        <Route path='/experience' component={ Experience } />
-        <Route path='/works' component={ Works } />
-        <Route path='/tools' component={ Tools } />
-    </Route>
-);
+export default routes;

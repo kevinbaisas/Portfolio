@@ -1,0 +1,12 @@
+{
+  "app_name": "Isomorphic Redux Trial",
+  "host": "http://local.isotrial.org",
+  "port": 5000,
+  "api": {
+      "host": "http://api.local.isotrial.org",
+      "ws": "ws://api.local.isotrial.org"
+  },
+  "renderer": {
+      "host": "http://isotrial.org"
+  }
+}

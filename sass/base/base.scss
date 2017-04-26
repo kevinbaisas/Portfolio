@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../icons/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('../icons/MaterialIcons-Regular.woff2') format('woff2'),
+    url('../icons/MaterialIcons-Regular.woff') format('woff'),
+    url('../icons/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: $font-family-default;
+    .mdl-layout__content {
+        height: 100vh;
+    }
+}
+
+/*Display*/
+.relative{
+    position: relative;
+}
+
+.black-hat {
+    display: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.hidden{
+    display: none;
+}
+
+.bg-transparent{
+    background-color: $transparent;
+}
+
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-divider {
+    margin-top: 8px!important;
+}

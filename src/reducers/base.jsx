@@ -1,17 +1,16 @@
-// @flow
 
-import { Modules, SET_ACTIVE_MODULE } from "../actions/base";
+import { SET_ACTIVE_MODULE }  from '../actions';
+import { HOME }               from '../constants';
 
-let { HOME }: { HOME: string } = Modules;
+const currentModule = (state = HOME, action) => {
 
-export const activeModule = (
-  state: string = HOME,
-  action: { type: string, activeModule: string }
-) :string => {
   switch(action.type){
-  case SET_ACTIVE_MODULE:
-    return action.activeModule;
-  default:
-    return state;
+    case SET_ACTIVE_MODULE:
+      return action.currentModule;
+    default:
+      return state;
   }
+
 };
+
+export default currentModule;

@@ -1,30 +1,22 @@
-/** @flow */
 
-import 'babel-polyfill';
+import React          from 'react'
+import ReactDOM       from 'react-dom'
+import createHistory  from 'history/createBrowserHistory'
+import Root           from './container';
+import initialize     from './store';
 
-import React from 'react';
-import { render } from 'react-dom';
-import { browserHistory, hashHistory } from 'react-router';
-import { syncHistoryWithStore } from 'react-router-redux';
-import Root from './containers/Root';
-import { fromJS } from 'immutable';
-import initialize from './store';
-
-let initialState: Object = window.__INITIAL_STATE__ || {};
-
-Object.keys(initialState).forEach((key: string) => {
-  initialState[key] = fromJS(initialState[key]);
-});
-
-const store: Object = initialize(initialState);
+let initialState = window.__INITIAL_STATE__;
 
 /**
- * You can use hashHistory (http://localhost:8080/#/target-route) to handle hot reloads however,
- * browserHistory (http://localhost:8080/target-route) is more prefered
+ * Use history/createBrowserHistory:
+ * http://your-host/target-route
+ * Use history/createHashHistory:
+ * http://your-host/#/target-route
  */
-const history: Object = syncHistoryWithStore(browserHistory, store);
+const history = createHistory();
+const store   = initialize(initialState, history);
 
-render(
+ReactDOM.render(
   <Root store={ store } history={ history } />,
-  document.getElementById('react-view')
+  document.getElementById('root-contianer')
 );

@@ -1,8 +1,8 @@
 {
-  "defaultAppTitle": "Isomorphic Redux Trial",
-  "serverHost": "http://127.0.0.1",
-  "serverPort": 5000,
-  "wdsHostRaw": "127.0.0.1",
-  "wdsHost": "http://127.0.0.1",
-  "wdsPort": 8080
+  "app_name": "Isomorphic Redux Trial",
+  "host": "http://local.isotrial.org",
+  "port": 5000,
+  "renderer": {
+      "host": "http://isotrial.org"
+  }
 }

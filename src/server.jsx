@@ -1,46 +1,49 @@
-/** @flow */
 
-import express from 'express';
-import path from 'path';
-import React from 'react';
-import { match } from 'react-router';
-import routes from './routes';
-import * as reducers from './reducers';
-import FetchComponentData from './lib/FetchComponentData';
-import initialize from './store';
-import ViewHandler from './lib/ViewHandler';
+import Koa                from 'koa';
+import serve              from 'koa-static';
+import path               from 'path';
+import _                  from 'underscore';
+import { matchRoutes }    from 'react-router-config';
 
-/** Initialize express */
-let app :Object = express();
+import routes             from './routes';
+import initialize         from './store';
+import ViewHandler        from './utils/ssr-view-handler';
+import FixStateBeforeLoad from './utils/fix-state-before-load';
 
-/** render static assets */
-app.use(express.static(path.join(__dirname, '../static')));
+const app = new Koa();
 
-app.use((req: Object, res: Object) :void => {
+/** serve static files */
+app.use(serve(__dirname + '/../static'));
 
-  /** Initialize store */
-  const store = initialize();
+app.use(async (ctx, next) => {
+  const isMatched = matchRoutes(routes, ctx.request.originalUrl);
 
-  /** Route handler */
-  match({
-    routes,
-    location: req.originalUrl /** current route */
-  }, (err: Object, redirectLocation: String, renderProps: Object) :void => {
+  if (_.isEmpty(isMatched)) {
+    // 404
+  }
+  else {
+    let componentsToRender = {};
+    const store = initialize();
 
-    /** If error occured return 500 */
-    if (err) return res.status(500).end('Internal server error');
+    isMatched.map(router => {
+      const { route  } = router;
 
-    /** Not found */
-    if (!renderProps) return res.status(404).end('Not found.');
+      const isValid   = _.isObject(route) && _.has(route, 'name') && _.has(route, 'component');
+      const isMember  = -1 === _.indexOf(componentsToRender, route.name);
 
-    const viewHandler: ViewHandler = new ViewHandler(req);
+      if (isValid && isMember)
+        componentsToRender[route.name] = route.component;
+    })
 
-    /** Fetch data that needs to be fetched and render HTML */
-    FetchComponentData(store.dispatch, renderProps.components, renderProps.params)
-      .then(() :string => viewHandler.renderView({ store, renderProps }))
-      .then((html: string) :string => res.end(html))
-      .catch((err: Object) :string => res.end(err.message));
-  });
+    const viewHandler = new ViewHandler();
+
+    await FixStateBeforeLoad(store.dispatch, componentsToRender)
+    .then(res => {
+      const html  = viewHandler.renderView(store, ctx);
+      ctx.body    = html;
+      next();
+    })
+  }
 });
 
 module.exports = app;

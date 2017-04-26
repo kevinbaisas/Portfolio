@@ -1,13 +1,8 @@
-/** @flow */
 
-/** NOTE: In combineReducers the routerReducer needs to have a key of 'routing' */
-import { combineReducers } from 'redux';
-import { routerReducer as routing } from 'react-router-redux';
-import { activeModule } from "./base";
+import { combineReducers }          from 'redux';
+import { routerReducer as router }  from 'react-router-redux';
+import currentModule                from './base';
 
-const rootReducer: Object = combineReducers({
-  activeModule,
-  routing
-});
+const rootReducer = combineReducers({ router, currentModule });
 
 export default rootReducer;

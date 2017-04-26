@@ -1,0 +1,28 @@
+.mdl-layout__drawer-button {
+    height: 42px;
+    width: 42px;
+}
+
+.mdl-layout__drawer {
+    border: 0;
+    .mdl-tabs__tab {
+        text-align: left;
+        &:hover, &.is-active {
+            background: #e4e2e2;
+        }
+    }
+}
+
+.drawer-title {
+    height: 160px;
+    background: #4a5694;
+    color: #ffffff;
+    margin: 0 0;
+    position: relative;
+    .title-name {
+        font-size: 20px;
+        padding-left: 16px;
+        position: absolute;
+        bottom: 8px;
+    }
+}

@@ -1,0 +1,29 @@
+.experience-container {
+    margin: 16px 16px;
+    height: 100vh;
+    .material-icons {
+        border-radius: 0%;
+    }
+    .yilinker {
+        background: url('http://localhost:5000/logos/yilinker-logo.svg') center / contain no-repeat;
+    }
+    .starfish {
+        background: url('http://localhost:5000/logos/starfish-logo.svg') center / contain no-repeat;
+    }
+    .experience-position {
+        font-size: 18px;
+        color: #000000;
+        text-decoration: none;
+    }
+    .outer-link {
+        color: #000000;
+        opacity: 0.54;
+        text-decoration: none;
+    }
+    .job-description {
+        padding-left: 40px;
+        li {
+            list-style-type: circle;
+        }
+    }
+}

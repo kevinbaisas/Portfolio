@@ -1,0 +1,132 @@
+.works-container {
+    margin: 16px 16px;
+    a {
+        color: #424242;
+        text-decoration: none;
+    }
+    .open-source-container a.open-source-item {
+        color: #424242;
+        text-decoration: none;
+    }
+    .mdl-cell {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .open-source-container {
+        margin: 0px 0px !important;
+        .mdl-list {
+            margin: 0px 0px;
+            .mdl-list__item {
+                display: inline-block;
+                width: 50%;
+            }
+        }
+    }
+    .app-link {
+        display: inline-block;
+        max-width: 100%;
+        margin: 8px 8px 8px 8px;
+    }
+    .featured a {
+        color: #424242;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .featured-description {
+        padding-left: 16px !important;
+        color: #626262;
+    }
+    h2 {
+        color: #424242;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .work-item {
+        max-width: 100%;
+    }
+    .mdl-card {
+        width: 100%;
+    }
+    .others {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+    .rtl {
+        background: url('http://localhost:5000/images/rtl.PNG') center / cover;
+    }
+    .rtl-operator {
+        background: url('http://localhost:5000/images/rtl-operator.PNG') center / cover;
+    }
+    .numa {
+        background: url('http://localhost:5000/images/numa.PNG') center / cover;
+    }
+    .cliq {
+        background: url('http://localhost:5000/images/cliq.PNG') center / cover;
+    }
+    .starfish {
+        background: url('http://localhost:5000/images/starfish.PNG') center / cover;
+    }
+    .mntc {
+        background: url('http://localhost:5000/images/mntc.PNG') center / cover;
+    }
+    .filinvest {
+        background: url('http://localhost:5000/images/filinvest.PNG') center / cover;
+    }
+    .mida {
+        background: url('http://localhost:5000/images/mida.PNG') center / cover;
+    }
+    .dutche {
+        background: url('http://localhost:5000/images/dutche.PNG') center / cover;
+    }
+    .bizu {
+        background: url('http://localhost:5000/images/bizu.PNG') center / cover;
+    }
+    .jaro {
+        background: url('http://localhost:5000/images/jaro.PNG') center / cover;
+    }
+    .showcase {
+        background: url('http://localhost:5000/images/showcase.PNG') center / cover;
+    }
+    .elysys {
+        background: url('http://localhost:5000/images/elysys.PNG') center / cover;
+    }
+    .bull-and-bear {
+        background: url('http://localhost:5000/images/bullandbear.PNG') center / cover;
+    }
+    .molly-malone {
+        background: url('http://localhost:5000/images/mollymalone.PNG') center / cover;
+    }
+    .diamond {
+        background: url('http://localhost:5000/images/diamond.PNG') center / cover;
+    }
+    .ccga {
+        background: url('http://localhost:5000/images/ccga.PNG') center / cover;
+    }
+    .mfg {
+        background: url('http://localhost:5000/images/mfg.PNG') center / cover;
+    }
+    .gyukaku {
+        background: url('http://localhost:5000/images/gyukaku.PNG') center / cover;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .featured a {
+        font-size: 16px !important;
+    }
+    h2 {
+        font-size: 24px !important;
+    }
+    .open-source-container {
+        margin: 0px 0px !important;
+        .mdl-list {
+            margin: 0px 0px;
+            .mdl-list__item {
+                display: inline-block !important;
+                width: 100% !important;
+            }
+        }
+    }
+}
