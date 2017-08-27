@@ -159,20 +159,6 @@ class Experience extends Component {
             },
             {
               '@type': 'Website',
-              'image': 'https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/tools/logstash.svg',
-              'url': 'https://www.elastic.co/products/logstash',
-              'name': 'Logstash',
-              'description': 'Logstash is a tool to collect, process, and forward events and log messages.'
-            },
-            {
-              '@type': 'Website',
-              'image': 'https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/tools/kibana.svg',
-              'url': 'https://www.elastic.co/products/kibana',
-              'name': 'Kibana',
-              'description': 'Kibana is a browser-based analytics and search interface for Elasticsearch that was developed primarily to view Logstash event data.'
-            },
-            {
-              '@type': 'Website',
               'image': 'https://s3-ap-southeast-1.amazonaws.com/kev-portfolio/tools/ionic.svg',
               'url': 'http://ionicframework.com/',
               'name': 'Ionic Framework',
@@ -414,26 +400,6 @@ class Experience extends Component {
                 <a target='_blank' href='https://www.elastic.co/products/elasticsearch'>Elasticsearch</a>
                 <span class='mdl-list__item-text-body'>
                   Elasticsearch is a highly scalable open-source full-text search and analytics engine.
-                </span>
-              </span>
-            </li>
-
-            <li class='mdl-list__item mdl-list__item--three-line'>
-              <span class='mdl-list__item-primary-content'>
-                <a target='_blank' href='https://www.elastic.co/products/logstash' class='material-icons mdl-list__item-avatar logstash'></a>
-                <a target='_blank' href='https://www.elastic.co/products/logstash'>Logstash</a>
-                <span class='mdl-list__item-text-body'>
-                  Logstash is a tool to collect, process, and forward events and log messages.
-                </span>
-              </span>
-            </li>
-
-            <li class='mdl-list__item mdl-list__item--three-line'>
-              <span class='mdl-list__item-primary-content'>
-                <a target='_blank' href='https://www.elastic.co/products/kibana' class='material-icons mdl-list__item-avatar kibana'></a>
-                <a target='_blank' href='https://www.elastic.co/products/kibana'>Kibana</a>
-                <span class='mdl-list__item-text-body'>
-                  Kibana is a browser-based analytics and search interface for Elasticsearch that was developed primarily to view Logstash event data.
                 </span>
               </span>
             </li>

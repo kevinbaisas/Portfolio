@@ -67,14 +67,14 @@ class Works extends Component {
             {
               '@type': 'Website',
               'image': 'http://localhost:5000/images/yilinker.png',
-              'url': 'https://yilinker.com/'
+              'url': 'http://buyer.yilinker.cn/'
               'name': 'Yilinker Buyers Website',
               'description': 'An e-commerce website that is built on Symfony, Elasticsearch, Redis, MySQL & NodeJS.'
             },
             {
               '@type': 'Website',
               'image': 'http://localhost:5000/images/yilinker-seller.png',
-              'url': 'https://seller.yilinker.com/'
+              'url': 'http://seller.yilinker.cn/'
               'name': 'Yilinker Seller and Affiliate Website',
               'description': 'Seller and Affiliate Website for Yilinker Inc that is built on Symfony, Elasticsearch, Redis, MySQL & NodeJS.'
             },
@@ -304,7 +304,7 @@ class Works extends Component {
               <img class='work-item' src='http://localhost:5000/images/yilinker.png' />
             </div>
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <h3 class='featured'><a target='_blank' href='https://yilinker.com'>Yilinker Buyer&#39; s Website</a></h3>
+              <h3 class='featured'><a target='_blank' href='http://buyer.yilinker.cn/'>Yilinker Buyer&#39; s Website</a></h3>
               <ul class='featured-description'>
                 <li>An e-commerce application with i18n (client & database level).</li>
                 <li>Uses Elasticsearch for keyword search.</li>
@@ -339,7 +339,7 @@ class Works extends Component {
               <img class='work-item' src='http://localhost:5000/images/yilinker-seller.png' />
             </div>
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <h3 class='featured'><a target='_blank' href='https://seller.yilinker.com/'>Yilinker Seller/Affiliate&#39; s Website</a></h3>
+              <h3 class='featured'><a target='_blank' href='http://seller.yilinker.cn/'>Yilinker Seller/Affiliate&#39; s Website</a></h3>
               <ul class='featured-description'>
                 <li>An application with i18n (client & database level).</li>
                 <li>Connected to the logistics system for inventory tracking.</li>
