@@ -1,4 +1,6 @@
 # Isomorphic Boilerplate
+[![Known Vulnerabilities](https://snyk.io/test/github/kvnbai/portfolio/badge.svg)](https://snyk.io/test/github/kvnbai/portfolio)
+
 
 Boilerplate for isomorphic rendering using redux.
 * Koa - used as server side renderer
