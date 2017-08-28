@@ -66,173 +66,173 @@ class Works extends Component {
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/yilinker.png',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker.png',
               'url': 'http://buyer.yilinker.cn/'
               'name': 'Yilinker Buyers Website',
               'description': 'An e-commerce website that is built on Symfony, Elasticsearch, Redis, MySQL & NodeJS.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/yilinker-seller.png',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-seller.png',
               'url': 'http://seller.yilinker.cn/'
               'name': 'Yilinker Seller and Affiliate Website',
               'description': 'Seller and Affiliate Website for Yilinker Inc that is built on Symfony, Elasticsearch, Redis, MySQL & NodeJS.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/yilinker-admin.png',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-admin.png',
               'name': 'Yilinker Admins Website',
               'description': 'Yilinkers admin website that is built on Symfony, Elasticsearch, Redis, MySQL & NodeJS.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/yilinker-crm.png',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-crm.png',
               'name': 'Yilinker CRM',
               'description': 'Yilinkers pluggable CRM platform built on NodeJS & MongoDB.'
             },
             {
               '@type': 'Mobile Application',
-              'image': 'http://localhost:5000/images/seed.png',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/seed.png',
               'url': 'https://play.google.com/store/apps/details?id=com.ionicframework.projectmanager876979',
               'name': 'Seed Project Manager',
               'description': 'A Mobile App that provides real-time services to manage a project.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/str8fly.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/str8fly.PNG',
               'name': 'Str8fly',
               'description': 'User and Events Management System.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/cristinamadara.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/cristinamadara.PNG',
               'url': 'http://www.cristinamadara.ca/',
               'name': 'Cristina Madara',
               'description': 'An E-commerce Website and Mobile application with blog connected to Paypal using Paypal’s RESTful API.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/usic.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/usic.PNG',
               'name': 'US Immigration Connect',
               'description': 'A website that helps the user to be an immigrant of US.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/yellowrock.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yellowrock.PNG',
               'name': 'Yellowrock Estate',
               'description': 'A private website with booking system.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/cliq.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/cliq.PNG',
               'url': 'http://www.collegelinkquest.com/',
               'name': 'College Link Quest',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/starfish.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/starfish.PNG',
               'url': 'http://www.starfi.sh/',
               'name': 'Starfish',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/mntc.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/mntc.PNG',
               'url': 'http://www.mntc.com/',
               'name': 'MNTC',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/rtl.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/rtl.PNG',
               'name': 'RTL CBS Asia Entertainment',
               'description': 'Simple CMS website with scheduling system'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/rtl-operator.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/rtl-operator.PNG',
               'name': 'RTL CBS Asia Operators Website',
               'description': 'Simple CMS website with Downloadable files.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/numa.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/numa.PNG',
               'name': 'Numa',
               'description': 'Simple e-commerce website.'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/mida.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/mida.PNG',
               'url': 'http://www.midafood.com/',
               'name': 'Mida Food',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/dutche.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/dutche.PNG',
               'url': 'http://dutchechocolates.com/',
               'name': 'Dutche Chocolates',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/bizu.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/bizu.PNG',
               'url': 'http://bizupatisserie.com/',
               'name': 'Bizu Patiserrie',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/jaro.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/jaro.PNG',
               'name': 'Jaro Glass Solutions',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/showcase.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/showcase.PNG',
               'name': 'Showcase Models',
               'description': 'Simple e-commerce website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/elysys.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/elysys.PNG',
               'name': 'Elysys',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/bullandbear.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/bullandbear.PNG',
               'name': 'Bull and Bear',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/mollymalone.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/mollymalone.PNG',
               'name': 'Molly Malone',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/diamond.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/diamond.PNG',
               'name': '128 Nivel Hills',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/ccga.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/ccga.PNG',
               'name': 'CCGA',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/mfg.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/mfg.PNG',
               'name': 'Mad for Garlic',
               'description': 'Simple CMS website'
             },
             {
               '@type': 'Website',
-              'image': 'http://localhost:5000/images/gyukaku.PNG',
+              'image': 'https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/gyukaku.PNG',
               'name': 'Gyukaku',
               'description': 'Simple CMS website'
             }
@@ -301,7 +301,7 @@ class Works extends Component {
             </div>
 
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/yilinker.png' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker.png' />
             </div>
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a target='_blank' href='http://buyer.yilinker.cn/'>Yilinker Buyer&#39; s Website</a></h3>
@@ -312,13 +312,13 @@ class Works extends Component {
                 <li>Also have a Restful API that is used by the mobile app.</li>
                 <li>GCM & APN is used for mobile notifications & real-time messaging.</li>
               </ul>
-              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.yilinker.onlinebuyer'><img src='http://localhost:5000/images/playstore.png' /></a>
-              <a class='app-link' target='_blank' href='https://d39ndui1cok09h.cloudfront.net/assets/files/onlinebuyer_latest.apk'><img src='http://localhost:5000/images/direct.png' /></a>
-              <a class='app-link' target='_blank' href='https://itunes.apple.com/us/app/yilinker-buyer/id1048641709?mt=8'><img src='http://localhost:5000/images/appstore.png' /></a>
+              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.yilinker.onlinebuyer'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/playstore.png' /></a>
+              <a class='app-link' target='_blank' href='https://d39ndui1cok09h.cloudfront.net/assets/files/onlinebuyer_latest.apk'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/direct.png' /></a>
+              <a class='app-link' target='_blank' href='https://itunes.apple.com/us/app/yilinker-buyer/id1048641709?mt=8'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/appstore.png' /></a>
             </div>
 
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone'>
-              <h3 class='featured'><a target='_blank' href='https://seller.yilinker.com'>Yilinker Seller/Affiliate&#39; s Website</a></h3>
+              <h3 class='featured'><a target='_blank' href='http://seller.yilinker.cn'>Yilinker Seller/Affiliate&#39; s Website</a></h3>
               <ul class='featured-description'>
                 <li>An application with i18n (client & database level).</li>
                 <li>Connected to the logistics system for inventory tracking.</li>
@@ -328,15 +328,15 @@ class Works extends Component {
                 <li>GCM & APN is used for mobile notifications & real-time messaging.</li>
                 <li>There are two user types in this platform (Seller & Affiliate) and each user type has its own priviledges on each module.</li>
               </ul>
-              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.yilinker.onlineseller'><img src='http://localhost:5000/images/playstore.png' /></a>
-              <a class='app-link' target='_blank' href='https://itunes.apple.com/us/app/yilinker-buyer/id1048641709?mt=8'><img src='http://localhost:5000/images/appstore.png' /></a>
+              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.yilinker.onlineseller'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/playstore.png' /></a>
+              <a class='app-link' target='_blank' href='https://itunes.apple.com/us/app/yilinker-buyer/id1048641709?mt=8'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/appstore.png' /></a>
             </div>
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone'>
-              <img class='work-item' src='http://localhost:5000/images/yilinker-seller.png' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-seller.png' />
             </div>
 
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/yilinker-seller.png' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-seller.png' />
             </div>
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a target='_blank' href='http://seller.yilinker.cn/'>Yilinker Seller/Affiliate&#39; s Website</a></h3>
@@ -349,12 +349,12 @@ class Works extends Component {
                 <li>GCM & APN is used for mobile notifications & real-time messaging.</li>
                 <li>There are two user types in this platform (Seller & Affiliate) and each user type has its own priviledges on each module.</li>
               </ul>
-              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.yilinker.onlineseller'><img src='http://localhost:5000/images/playstore.png' /></a>
-              <a class='app-link' target='_blank' href='https://itunes.apple.com/us/app/yilinker-seller/id1055960515?mt=8'><img src='http://localhost:5000/images/appstore.png' /></a>
+              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.yilinker.onlineseller'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/playstore.png' /></a>
+              <a class='app-link' target='_blank' href='https://itunes.apple.com/us/app/yilinker-seller/id1055960515?mt=8'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/appstore.png' /></a>
             </div>
 
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/yilinker-admin.png' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-admin.png' />
             </div>
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a>Yilinker Admin&#39; s Website</a></h3>
@@ -376,11 +376,11 @@ class Works extends Component {
               </ul>
             </div>
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone'>
-              <img class='work-item' src='http://localhost:5000/images/yilinker-crm.png' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-crm.png' />
             </div>
 
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/yilinker-crm.png' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yilinker-crm.png' />
             </div>
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a>Yilinker CRM</a></h3>
@@ -394,7 +394,7 @@ class Works extends Component {
             </div>
 
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/seed.png' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/seed.png' />
             </div>
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a target='_blank' href='https://play.google.com/store/apps/details?id=com.ionicframework.projectmanager876979'>Seed Project Manager</a></h3>
@@ -406,7 +406,7 @@ class Works extends Component {
                 <li>Each project has milestone and task boards to track the progress of the project.</li>
                 <li>Projects have allotted budget and budget graph to track the remaining and used hours of the project.</li>
               </ul>
-              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.ionicframework.projectmanager876979'><img src='http://localhost:5000/images/playstore.png' /></a>
+              <a class='app-link' target='_blank' href='https://play.google.com/store/apps/details?id=com.ionicframework.projectmanager876979'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/playstore.png' /></a>
             </div>
 
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone'>
@@ -422,11 +422,11 @@ class Works extends Component {
               </ul>
             </div>
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone'>
-              <img class='work-item' src='http://localhost:5000/images/str8fly.PNG' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/str8fly.PNG' />
             </div>
 
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/str8fly.PNG' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/str8fly.PNG' />
             </div>
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a>Str8fly</a></h3>
@@ -442,7 +442,7 @@ class Works extends Component {
             </div>
 
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/cristinamadara.PNG' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/cristinamadara.PNG' />
             </div>
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a target='_blank' href='http://www.cristinamadara.ca/'>Cristina Madara</a></h3>
@@ -450,7 +450,7 @@ class Works extends Component {
                 <li>An E-commerce Website with blog connected to Paypal using Paypal’s RESTful API.</li>
                 <li>The sample mobile app was built using native Android Framework</li>
               </ul>
-              <a class='app-link' target='_blank' href='http://localhost:5000/images/CristinaMadara.apk'><img src='http://localhost:5000/images/direct.png' /></a>
+              <a class='app-link' target='_blank' href='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/CristinaMadara.apk'><img src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/direct.png' /></a>
             </div>
 
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone'>
@@ -463,11 +463,11 @@ class Works extends Component {
               </ul>
             </div>
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone'>
-              <img class='work-item' src='http://localhost:5000/images/usic.PNG' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/usic.PNG' />
             </div>
 
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/usic.PNG' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/usic.PNG' />
             </div>
             <div class='mdl-cell mdl-cell--hide-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a>USIC</a></h3>
@@ -480,7 +480,7 @@ class Works extends Component {
             </div>
 
             <div class='mdl-cell mdl-cell--8-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
-              <img class='work-item' src='http://localhost:5000/images/yellowrock.PNG' />
+              <img class='work-item' src='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/images/yellowrock.PNG' />
             </div>
             <div class='mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone'>
               <h3 class='featured'><a>Yellow Rock Estate</a></h3>

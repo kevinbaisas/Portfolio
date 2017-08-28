@@ -101,10 +101,10 @@ class Experience extends Component {
           <ul class='mdl-list'>
             <li class='mdl-list__item mdl-list__item--three-line'>
               <span class='mdl-list__item-primary-content'>
-                <a target='_blank' href='https://yilinker.com/' class='material-icons mdl-list__item-avatar yilinker'></a>
-                <a class='experience-position' target='_blank' href='https://yilinker.com'>Senior Software Engineer</a>
+                <a target='_blank' href='http://buyer.yilinker.cn/' class='material-icons mdl-list__item-avatar yilinker'></a>
+                <a class='experience-position' target='_blank' href='http://buyer.yilinker.cn'>Senior Software Engineer</a>
                 <span class='mdl-list__item-text-body'>
-                  <a class='outer-link' target='_blank' href='https://yilinker.com'>Easyshop/Yilinker Philippines Inc</a> <br />
+                  <a class='outer-link' target='_blank' href='http://buyer.yilinker.cn'>Easyshop/Yilinker Philippines Inc</a> <br />
                   July 2015 - August 2016
                 </span>
               </span>
