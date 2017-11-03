@@ -20,7 +20,7 @@ class Works extends Component {
       },
       {
         'property': 'og:url',
-        'content': 'http://www.kevinbaisas.xyz/works'
+        'content': 'http://kevinbaisas.com/works'
       },
       {
         'property': 'og:title',
@@ -37,7 +37,7 @@ class Works extends Component {
     return [
       {
         'rel': 'canonical',
-        'href': 'http://www.kevinbaisas.xyz/works'
+        'href': 'http://kevinbaisas.com/works'
       }
     ];
   };
@@ -49,7 +49,7 @@ class Works extends Component {
         innerHTML: `{
           '@context': 'http://schema.org',
           '@type': 'Project List',
-          'url': 'http://www.kevinbaisas.xyz/works',
+          'url': 'http://kevinbaisas.com/works',
           'numberOfItems': '29',
           'itemListElement': [
             {

@@ -24,8 +24,6 @@ This boilerplate implments the latest versions of:
 ## Get started
 * `sudo chmod 777 update.sh`
 * Execute `./update.sh` (the script requires yarn, but you can use npm install if you want to)
-* Copy `config.json.dist` to `config.json`
-* Copy `api/config.json.dist` to `api/config.json`
 * `npm start`
 
 ## NOTES

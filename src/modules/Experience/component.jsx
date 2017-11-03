@@ -20,7 +20,7 @@ class Experience extends Component {
       },
       {
         'property': 'og:url',
-        'content': 'http://www.kevinbaisas.xyz/experience'
+        'content': 'http://kevinbaisas.com/experience'
       },
       {
         'property': 'og:title',
@@ -37,7 +37,7 @@ class Experience extends Component {
     return [
       {
         'rel': 'canonical',
-        'href': 'http://www.kevinbaisas.xyz/experience'
+        'href': 'http://kevinbaisas.com/experience'
       }
     ];
   };
@@ -49,7 +49,7 @@ class Experience extends Component {
         innerHTML: `{
           '@context': 'http://schema.org',
           '@type': 'Experience List',
-          'url': 'http://www.kevinbaisas.xyz/experience',
+          'url': 'http://kevinbaisas.com/experience',
           'numberOfItems': '2',
           'itemListElement': [
             {
