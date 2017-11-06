@@ -87,7 +87,7 @@ class Home extends Component {
             <h1>eat. sleep. code. repeat.</h1>
           </div>
           <div class='banner-font banner-sub-slogan'>
-            <a target='_blank' rel='noopener' href='https://s3-ap-southeast-1.amazonaws.com/kevinbaisas-portfolio/cv/KEVIN+MAGBOO+BAISAS.pdf' className='mdl-button mdl-js-button mdl-button--raised mdl-button--colored'>
+            <a target='_blank' rel='noopener' href='https://d3eikmgunls5kv.cloudfront.net/cv/KEVIN+MAGBOO+BAISAS.pdf' className='mdl-button mdl-js-button mdl-button--raised mdl-button--colored'>
               DOWNLOAD CV
             </a>
           </div>
